@@ -53,6 +53,10 @@ if (empty( $messages )) {
 
 if (empty ( $messages )) { // gdy brak błędów
 	
+        $kwota = floatval($kwota);
+        $lata = intval($lata);
+        $opr = floatval($opr);
+        
         $result = ($kwota + $kwota * ($opr / 100)) / ($lata * 12);
 	
 }
