@@ -1,0 +1,1 @@
+Stronicowanie zostało dodane 08.04.2025 w pliku PropertiesCtrl.class.php linijka 18
